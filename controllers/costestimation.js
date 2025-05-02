@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-const API_KEY = 'ddc-3jsYi0OJLtcuTXEYL2ue2k4Q5o2kjmwkv1YlowcGfmDNuO2cxc';
+const API_KEY = '';
 const API_URL = 'https://api.sree.shop/v1';
 
 exports.costestimation = async (req, res) => {
