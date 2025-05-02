@@ -3,9 +3,9 @@
 **Technologies Used:**
 
 - **Languages:** JavaScript
-- **Libraries/Frameworks:** React Native, Node.js, Express, MongoDB, Razorpay, Leaflet, React Navigation, AsyncStorage, React Native WebView, Razorpay API, Expo Location, React Native Picker, React Native Chart Kit, OpenAI GPT-4, Sharp
+- **Libraries/Frameworks:** React Native, Node.js, Express, MongoDB, Razorpay, Leaflet, React Navigation, AsyncStorage, React Native WebView, Razorpay API, Expo Location, React Native Picker, React Native Chart Kit, OpenAI GPT-4, Sharp, **Socket.IO**, **WebRTC**
 
-This project is a mobile application designed to streamline mechanic service bookings, real-time tracking, and damage cost estimation. Users can book a mechanic, track their real-time location, select their preferred payment method (cash or Razorpay), and estimate the cost of vehicle damage using OpenAI once the service is completed.
+This project is a mobile application designed to streamline mechanic service bookings, real-time tracking, damage cost estimation, and live communication between users and mechanics. Users can book a mechanic, track their real-time location, select their preferred payment method (cash or Razorpay), and estimate the cost of vehicle damage using OpenAI once the service is completed. Additionally, **Socket.IO** and **WebRTC** are integrated to enable real-time messaging and video communication.
 
 ## Key Features:
 
@@ -33,6 +33,10 @@ This project is a mobile application designed to streamline mechanic service boo
 - **State Management:**  
   Used **React Native's useState** for state management, with **AsyncStorage** for persisting user data locally.
 
+- **Real-Time Communication using Socket.IO and WebRTC:**  
+  - **Socket.IO** is used for real-time messaging between users and mechanics, enabling live chat.
+  - **WebRTC** is integrated for video calls, allowing users and mechanics to communicate face-to-face in case of service-related queries.
+
 ## Libraries & Tools:
 
 - **React Native:** Cross-platform mobile development framework.
@@ -48,5 +52,7 @@ This project is a mobile application designed to streamline mechanic service boo
 - **AsyncStorage:** For persisting user data locally.
 - **OpenAI GPT-4:** For AI-powered damage cost estimation based on vehicle images and details.
 - **Sharp:** For resizing and compressing vehicle damage images before processing.
+- **Socket.IO:** For real-time messaging and communication.
+- **WebRTC:** For peer-to-peer video calls between users and mechanics.
 
-This project showcases the integration of a wide range of technologies to deliver an efficient, user-friendly, and interactive mobile application with both service booking and damage cost estimation powered by OpenAI.
+This project showcases the integration of a wide range of technologies to deliver an efficient, user-friendly, and interactive mobile application with service booking, damage cost estimation powered by OpenAI, and real-time communication through **Socket.IO** and **WebRTC**.
